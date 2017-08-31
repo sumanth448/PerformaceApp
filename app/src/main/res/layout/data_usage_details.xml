@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/details_main"
+    tools:context=".DetailsActivity">>
+    <TextView
+        android:id="@+id/wifitxbytes"
+        android:textColor="@color/title"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/wifitxbytesvalue"
+        android:layout_marginLeft="15dp"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:layout_toRightOf="@id/wifitxbytes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/wifirxbytes"
+        android:layout_below="@id/wifitxbytes"
+        android:textColor="@color/title"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/wifirxbytesvalue"
+        android:layout_marginLeft="15dp"
+        android:layout_below="@id/wifitxbytesvalue"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:layout_toRightOf="@id/wifirxbytes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/mobiletxbytes"
+        android:layout_below="@id/wifirxbytes"
+        android:textColor="@color/title"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/mobiletxbytesvalue"
+        android:layout_below="@id/wifirxbytesvalue"
+        android:layout_marginLeft="15dp"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:layout_toRightOf="@id/mobiletxbytes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/mobilerxbytes"
+        android:layout_below="@id/mobiletxbytes"
+        android:textColor="@color/title"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/mobilerxbytesvalue"
+        android:layout_marginLeft="15dp"
+        android:layout_below="@id/mobiletxbytesvalue"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:layout_toRightOf="@id/mobilerxbytes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
